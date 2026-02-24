@@ -2,7 +2,7 @@
 - 👀 I’m interested in Robotics and Machine Learning.
 - 🌱 I’m currently learning Reinforcement Learning.
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...nasimulsami752@gmail.com
+- 📫 How to reach me nasimulsami752@gmail.com
 - ⚡ Fun fact: I dream of designing AI robot that can joke better than me.
 
 <!---
