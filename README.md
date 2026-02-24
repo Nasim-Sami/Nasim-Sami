@@ -1,9 +1,8 @@
 - 👋 Hi, I’m @Nasim-Sami
-- 👀 I’m interested in Data Science, Machine Learning and AI engineering.
-- 🌱 I’m currently learning Artificial Neural network.
+- 👀 I’m interested in Robotics and Machine Learning.
+- 🌱 I’m currently learning Reinforcement Learning.
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
+- 📫 How to reach me ...nasimulsami752@gmail.com
 - ⚡ Fun fact: I dream of designing AI robot that can joke better than me.
 
 <!---
