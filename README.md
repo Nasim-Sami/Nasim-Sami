@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Nasim-Sami
-- 👀 I’m interested in Robotics and Machine Learning.
+- 👀 I’m interested in Robotics and AI.
 - 🌱 I’m currently learning Reinforcement Learning.
-- 💞️ I’m looking to collaborate on ...
+- 💞️ I’m looking to collaborate on RL and Robotics projects.
 - 📫 How to reach me nasimulsami752@gmail.com
 - ⚡ Fun fact: I dream of designing AI robot that can joke better than me.
 
