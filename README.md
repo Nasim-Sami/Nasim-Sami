@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Nasim-Sami
-- 👀 I’m interested in Robotics and AI.
+- 👀 I’m interested in Robotics and Physics.
 - 🌱 I’m currently learning to make projects using ROS2 and gazebo.
 - 💞️ I’m looking to collaborate on RL and Robotics projects.
 - 📫 How to reach me nasimulsami752@gmail.com
