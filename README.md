@@ -9,7 +9,7 @@
 [![Ubuntu](https://img.shields.io/badge/OS-Linux%20%7C%20Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
 
 <p align="center">
-  <em>Passionate about building autonomous mobile robots, real-time SLAM & navigation pipelines, cognitive adaptive learning systems, and intelligent manipulators.</em>
+  <em>Passionate about building autonomous aerial & mobile robotics, real-time SLAM & navigation pipelines, deterministic safety shields for LLM-driven flight, and cognitive adaptive systems.</em>
 </p>
 
 ---
@@ -20,19 +20,22 @@
 
 ### 🦾 Robotics & Autonomous Systems
 <p>
-  <img src="https://img.shields.io/badge/ROS_2-Lyrical-22314E?style=flat-square&logo=ros&logoColor=white" />
+  <img src="https://img.shields.io/badge/ROS_2-Jazzy%20%7C%20Humble-22314E?style=flat-square&logo=ros&logoColor=white" />
+  <img src="https://img.shields.io/badge/PX4_Autopilot-v1.15_SITL-EE3322?style=flat-square&logo=drone&logoColor=white" />
+  <img src="https://img.shields.io/badge/Simulation-Gazebo_Harmonic%20%7C%20RViz2-FF6600?style=flat-square&logo=gazebo&logoColor=white" />
+  <img src="https://img.shields.io/badge/GCS-QGroundControl%20%7C%20MAVLink-007ACC?style=flat-square" />
   <img src="https://img.shields.io/badge/Navigation2-Active-28A745?style=flat-square&logo=ros&logoColor=white" />
   <img src="https://img.shields.io/badge/SLAM_Toolbox-Mapping-FF6F00?style=flat-square" />
   <img src="https://img.shields.io/badge/MoveIt_2-Motion_Planning-3B78E7?style=flat-square&logo=ros" />
-  <img src="https://img.shields.io/badge/Simulation-Gazebo%20%7C%20RViz2-5C3EE8?style=flat-square" />
-  <img src="https://img.shields.io/badge/Robots-TurtleBot3%20%7C%20UR3%20%7C%20SCARA-181717?style=flat-square" />
+  <img src="https://img.shields.io/badge/Robots-x500_Quadcopter%20%7C%20TurtleBot3%20%7C%20UR3-181717?style=flat-square" />
 </p>
 
-### 🧠 AI, Deep Learning & Reinforcement Learning
+### 🧠 AI, Deep Learning & Autonomous Perception
 <p>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Computer_Vision-YOLOv8%20%7C%20OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/Local_LLM-Ollama%20%7C%20Qwen_2.5-000000?style=flat-square&logo=ollama&logoColor=white" />
   <img src="https://img.shields.io/badge/Reinforcement_Learning-DQN%20%7C%20PPO%20%7C%20A2C-FFD700?style=flat-square&logoColor=black" />
-  <img src="https://img.shields.io/badge/Computer_Vision-OpenCV%20%7C%20YOLOv8-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
   <img src="https://img.shields.io/badge/AI_Vision-Google_MediaPipe-00C853?style=flat-square&logo=google" />
   <img src="https://img.shields.io/badge/LLM_Integration-Groq_API-F55036?style=flat-square" />
 </p>
@@ -50,8 +53,25 @@
 
 ## 🌟 Featured Repositories
 
+### 🚁 Flagship: [Autonomous-Drone-PX4-ROS2-YOLO-LLM](https://github.com/Nasim-Sami/Autonomous-Drone-PX4-ROS2-YOLO-LLM)
+> **Production-Grade Autonomous Aerial Robotics: Natural Language Mission Planning, Deterministic 3D Safety Gatekeeper, and Real-Time YOLOv8 Vision Perception.**
+>
+> [![ROS 2](https://img.shields.io/badge/ROS_2-Jazzy-22314E?style=flat-square&logo=ros&logoColor=white)](https://docs.ros.org/en/jazzy/)
+> [![PX4 Autopilot](https://img.shields.io/badge/PX4-v1.15_SITL-EE3322?style=flat-square&logo=drone&logoColor=white)](https://px4.io/)
+> [![Gazebo](https://img.shields.io/badge/Gazebo-Harmonic-FF6600?style=flat-square&logo=gazebo&logoColor=white)](https://gazebosim.org/)
+> [![YOLOv8](https://img.shields.io/badge/Vision-YOLOv8_Nano-00FFFF?style=flat-square&logo=yolo&logoColor=black)](https://ultralytics.com/)
+> [![Ollama](https://img.shields.io/badge/LLM-Qwen_2.5_1.5B-000000?style=flat-square&logo=ollama&logoColor=white)](https://ollama.ai/)
+> [![QGroundControl](https://img.shields.io/badge/GCS-QGroundControl-007ACC?style=flat-square)](http://qgroundcontrol.com/)
+> [![Demo Video](https://img.shields.io/badge/Demo_Video-1080p_60fps-blueviolet?style=flat-square&logo=youtube&logoColor=white)](https://github.com/Nasim-Sami/Autonomous-Drone-PX4-ROS2-YOLO-LLM/blob/main/Autonomous_Drone_PX4_ROS2_YOLO_LLM_Demo.mp4)
+>
+> - **Natural Language Mission Planning:** High-level mission extraction and waypoint decomposition (in English & Bengali) using an on-device Small Language Model (**Ollama `qwen2.5:1.5b`**).
+> - **Deterministic 3D Safety Shield:** Prioritizing flight safety, a deterministic ROS 2 gatekeeper evaluates kinematic bounds, a $300\text{m}$ geofence, and 3D altitude overflight clearance to validate and bound LLM decisions before execution.
+> - **Neural Vision Perception:** Ultralytics YOLOv8 Nano performing real-time obstacle proximity estimation and trigger-based aerial reconnaissance snapshots.
+> - **Dual Telemetry Monitoring:** 10Hz MAVLink stream to **QGroundControl** (HUD, Artificial Horizon, Satellite Map) and an interactive **Web Ground Control Station**.
+
 | Project | Tech Stack | Highlights |
 | :--- | :--- | :--- |
+| 🚁 [**Autonomous-Drone-PX4-ROS2-YOLO-LLM**](https://github.com/Nasim-Sami/Autonomous-Drone-PX4-ROS2-YOLO-LLM) | `PX4 SITL`, `ROS 2 Jazzy`, `Gazebo Harmonic`, `YOLOv8`, `Ollama LLM`, `Micro-XRCE-DDS`, `QGC` | Autonomous quadcopter pipeline featuring bilingual voice/text mission planning, a deterministic 3D safety gatekeeper validating LLM commands, YOLOv8 vision, and 10Hz offboard trajectory tracking. |
 | 🚀 [**ROS2-Mini-Projects**](https://github.com/Nasim-Sami/ROS2-Mini-Projects) | `ROS 2`, `Nav2`, `SLAM`, `MoveIt 2`, `Python` | Autonomous SLAM mapping, multi-waypoint patrol, SCARA MediaPipe hand teleop, and UR3 OMPL obstacle avoidance. |
 | 🎓 [**Adaptive_MCQ_Real_Student_Session**](https://github.com/Nasim-Sami/Adaptive_MCQ_Real_Student_Session) | `PyTorch`, `RL (LSTM)`, `Groq LLM`, `Flask` | Intelligent tutoring system using Reinforcement Learning and Groq LLM for adaptive student learning sessions. |
 | 🧠 [**Reinforcement-Learning-projects**](https://github.com/Nasim-Sami/Reinforcement-Learning-projects) | `PyTorch`, `Gymnasium`, `DQN`, `A2C` | Deep RL algorithms tested on CartPole-v1 and Atari Breakout benchmark environments. |
