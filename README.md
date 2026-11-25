@@ -9,7 +9,7 @@
 [![Ubuntu](https://img.shields.io/badge/OS-Linux%20%7C%20Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
 
 <p align="center">
-  <em>Passionate about building autonomous aerial & mobile robotics, real-time SLAM & navigation pipelines, deterministic safety shields for LLM-driven flight, and cognitive adaptive systems.</em>
+  <em>Passionate about building autonomous aerial & mobile robotics, real-time SLAM & navigation pipelines, constrained safe reinforcement learning, deterministic safety shields for LLM-driven flight, and cognitive adaptive systems.</em>
 </p>
 
 ---
@@ -33,6 +33,7 @@
 ### 🧠 AI, Deep Learning & Autonomous Perception
 <p>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Safe_RL-PPO--Lagrangian%20%7C%20CMDP-FFD700?style=flat-square&logoColor=black" />
   <img src="https://img.shields.io/badge/Computer_Vision-YOLOv8%20%7C%20OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
   <img src="https://img.shields.io/badge/Local_LLM-Ollama%20%7C%20Qwen_2.5-000000?style=flat-square&logo=ollama&logoColor=white" />
   <img src="https://img.shields.io/badge/Reinforcement_Learning-DQN%20%7C%20PPO%20%7C%20A2C-FFD700?style=flat-square&logoColor=black" />
@@ -53,7 +54,22 @@
 
 ## 🌟 Featured Repositories
 
-### 🚁 Flagship: [Autonomous-Drone-PX4-ROS2-YOLO-LLM](https://github.com/Nasim-Sami/Autonomous-Drone-PX4-ROS2-YOLO-LLM)
+### 🛡️ Safe RL Flagship: [Safe-RL-Mobile-Robot-Navigation](https://github.com/Nasim-Sami/Safe-RL-Mobile-Robot-Navigation)
+> **Constrained Deep Reinforcement Learning (CMDP) with PPO-Lagrangian on Continuous 360° LiDAR for Proven Zero-Collision Mobile Robot Navigation.**
+>
+> [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org/)
+> [![ROS 2](https://img.shields.io/badge/ROS_2-Jazzy-22314E?style=flat-square&logo=ros&logoColor=white)](https://docs.ros.org/en/jazzy/)
+> [![Gazebo](https://img.shields.io/badge/Gazebo-Harmonic-FF6600?style=flat-square&logo=gazebo&logoColor=white)](https://gazebosim.org/)
+> [![Safe RL](https://img.shields.io/badge/CMDP-PPO--Lagrangian-FFD700?style=flat-square&logoColor=black)](https://github.com/Nasim-Sami/Safe-RL-Mobile-Robot-Navigation)
+> [![Zero Collision](https://img.shields.io/badge/Collision_Rate-0.0%25_Verified-success?style=flat-square)](https://github.com/Nasim-Sami/Safe-RL-Mobile-Robot-Navigation)
+>
+> - **Pure End-to-End Safe RL:** Direct mapping from raw 360-degree LiDAR range beams and proprioceptive goal vectors to unicycle steering velocities without heuristic overrides or safety filters.
+> - **Spatial 1D-CNN & Multimodal Fusion:** 3-stage 1D convolutional feature extractor capturing continuous angular free-space contours fused with target and velocity states.
+> - **Twin Critics & Adaptive PID Lambda:** Decouples task reward value ($V^R$) from collision constraint risk ($V^C$) with PID-damped $\lambda \in [0, 5]$, eliminating freeze traps in tight corridors while guaranteeing $0.0\%$ collisions.
+
+---
+
+### 🚁 Aerial Robotics Flagship: [Autonomous-Drone-PX4-ROS2-YOLO-LLM](https://github.com/Nasim-Sami/Autonomous-Drone-PX4-ROS2-YOLO-LLM)
 > **Production-Grade Autonomous Aerial Robotics: Natural Language Mission Planning, Deterministic 3D Safety Gatekeeper, and Real-Time YOLOv8 Vision Perception.**
 >
 > [![ROS 2](https://img.shields.io/badge/ROS_2-Jazzy-22314E?style=flat-square&logo=ros&logoColor=white)](https://docs.ros.org/en/jazzy/)
@@ -69,8 +85,13 @@
 > - **Neural Vision Perception:** Ultralytics YOLOv8 Nano performing real-time obstacle proximity estimation and trigger-based aerial reconnaissance snapshots.
 > - **Dual Telemetry Monitoring:** 10Hz MAVLink stream to **QGroundControl** (HUD, Artificial Horizon, Satellite Map) and an interactive **Web Ground Control Station**.
 
+---
+
+### 📂 All Repositories & Research Projects
+
 | Project | Tech Stack | Highlights |
 | :--- | :--- | :--- |
+| 🛡️ [**Safe-RL-Mobile-Robot-Navigation**](https://github.com/Nasim-Sami/Safe-RL-Mobile-Robot-Navigation) | `PyTorch`, `PPO-Lagrangian`, `ROS 2 Jazzy`, `Gazebo Harmonic`, `TurtleBot3`, `1D-CNN` | Constrained Deep RL for mobile robot navigation on 360° LiDAR, featuring Twin Critics and adaptive PID $\lambda$ achieving 0.0% collisions across procedurally randomized domains. |
 | 🚁 [**Autonomous-Drone-PX4-ROS2-YOLO-LLM**](https://github.com/Nasim-Sami/Autonomous-Drone-PX4-ROS2-YOLO-LLM) | `PX4 SITL`, `ROS 2 Jazzy`, `Gazebo Harmonic`, `YOLOv8`, `Ollama LLM`, `Micro-XRCE-DDS`, `QGC` | Autonomous quadcopter pipeline featuring bilingual voice/text mission planning, a deterministic 3D safety gatekeeper validating LLM commands, YOLOv8 vision, and 10Hz offboard trajectory tracking. |
 | 🚀 [**ROS2-Mini-Projects**](https://github.com/Nasim-Sami/ROS2-Mini-Projects) | `ROS 2`, `Nav2`, `SLAM`, `MoveIt 2`, `Python` | Autonomous SLAM mapping, multi-waypoint patrol, SCARA MediaPipe hand teleop, and UR3 OMPL obstacle avoidance. |
 | 🎓 [**Adaptive_MCQ_Real_Student_Session**](https://github.com/Nasim-Sami/Adaptive_MCQ_Real_Student_Session) | `PyTorch`, `RL (LSTM)`, `Groq LLM`, `Flask` | Intelligent tutoring system using Reinforcement Learning and Groq LLM for adaptive student learning sessions. |
@@ -97,4 +118,4 @@
 
 - 📧 **Email:** [nasimulsami752@gmail.com](mailto:nasimulsami752@gmail.com)
 - 🌐 **GitHub:** [@Nasim-Sami](https://github.com/Nasim-Sami)
-- 🤝 Open to collaborations on **Robotics, Reinforcement Learning, and Autonomous Systems Research**!
+- 🤝 Open to collaborations on **Robotics, Safe Reinforcement Learning, and Autonomous Systems Research**!
