@@ -54,7 +54,7 @@
 
 ## 🌟 Featured Repositories
 
-### 🛡️ Safe RL Flagship: [Safe-RL-Mobile-Robot-Navigation](https://github.com/Nasim-Sami/Safe-RL-Mobile-Robot-Navigation)
+### 🛡️ Safe Reinforcement Learning: [Safe-RL-Mobile-Robot-Navigation](https://github.com/Nasim-Sami/Safe-RL-Mobile-Robot-Navigation)
 > **Constrained Deep Reinforcement Learning (CMDP) with PPO-Lagrangian on Continuous 360° LiDAR for Proven Zero-Collision Mobile Robot Navigation.**
 >
 > [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org/)
@@ -69,7 +69,7 @@
 
 ---
 
-### 🚁 Aerial Robotics Flagship: [Autonomous-Drone-PX4-ROS2-YOLO-LLM](https://github.com/Nasim-Sami/Autonomous-Drone-PX4-ROS2-YOLO-LLM)
+### 🚁 Autonomous Aerial Robotics: [Autonomous-Drone-PX4-ROS2-YOLO-LLM](https://github.com/Nasim-Sami/Autonomous-Drone-PX4-ROS2-YOLO-LLM)
 > **Production-Grade Autonomous Aerial Robotics: Natural Language Mission Planning, Deterministic 3D Safety Gatekeeper, and Real-Time YOLOv8 Vision Perception.**
 >
 > [![ROS 2](https://img.shields.io/badge/ROS_2-Jazzy-22314E?style=flat-square&logo=ros&logoColor=white)](https://docs.ros.org/en/jazzy/)
